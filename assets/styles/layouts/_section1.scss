@@ -1,0 +1,58 @@
+#section1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    #text-section {
+        background: $white1;
+
+        #text {
+            margin: 10px;
+            padding: 10px;
+            border: 1px dashed $orange1;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            h2 {
+                color: $orange1;
+                font-family: $font1;
+                font-size: 2rem;
+                font-weight: 500;
+                margin-top: 15px;
+            }
+            h3 {
+                margin-top: -12px;
+                text-transform: uppercase; 
+                margin-bottom: 15px;
+                font-family: $font2;
+            }
+            .image_plat {
+                width: 30px;
+                height: 30px;
+                background: url(../img/ic-plate.png) center/cover no-repeat;
+                margin: 15px;
+            }
+            p {
+                margin: 15px auto;
+                font-size: 0.9rem;
+            }
+            .avatar {
+                width: 60px;
+                height: 60px;
+                background: url(../img/avatar-01.jpg) center/cover;
+                border-radius: 30px;
+                margin: 15px auto;
+            }
+            span {
+                font-weight: bold;
+            }
+            h6 {
+                text-transform: uppercase;
+                color: $grey1;
+                margin-bottom: 20px;
+            }
+        }
+    }
+    .image-section {
+        background: url(../img/store-01.jpg) center/cover;
+    }
+} 
