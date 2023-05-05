@@ -2,6 +2,10 @@
     display: grid;
     grid-template-columns: 50% 50%;
 
+    @media screen and (max-width: 680px){
+        grid-template-columns: 100%;
+    }
+
     #text-section {
         background: $white1;
 
@@ -54,5 +58,9 @@
     }
     .image-section {
         background: url(../img/store-01.jpg) center/cover;
+
+        @media screen and (max-width: 680px){
+            display: none;
+        }
     }
 } 
